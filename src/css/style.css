@@ -4,11 +4,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0, 0%, 98%);
-}
-
-p{
-    color: var( --neutral-grayish-blue);
 }
 /* Weights: 200, 400, 600 */
 
@@ -83,7 +78,6 @@ p{
 
 .container .section-second .items h1 {
   font-size: 1.25rem;
-  color: var(--neutral-vdark-blue);
 }
 .container .section-second .items p {
   margin-top: .4rem;
@@ -113,7 +107,7 @@ p{
         margin:0;
         margin-top: 30px;
         max-width: 300px;
-        gap:50px;
+        gap:100px;
     }
     .container .header h1{
         font-size: 1.5rem;
