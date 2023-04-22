@@ -68,7 +68,7 @@ body {
   padding-left: 32px;
 
   border-radius: .3rem;
-  box-shadow: 0 0 20px rgb(105, 105, 105);
+  box-shadow: 5px 10px 20px hsla(229, 6%, 66%, 0.36);
 }
 .container .section-second .items .image {
   position: absolute;
