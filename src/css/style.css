@@ -1,10 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  background-color: rgb(255, 204, 195);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0, 0%, 98%);
+}
+
+p{
+    color: var( --neutral-grayish-blue);
 }
 /* Weights: 200, 400, 600 */
 
@@ -13,7 +17,7 @@ body {
   flex-direction: column;
   flex: 1;
   gap: 64px;
-  background-color: #ccc;
+
   margin: 82px 165px;
   max-width: 1110px;
   min-width: 350px;
@@ -22,13 +26,12 @@ body {
 /* HEADER */
 
 .container .header {
-  background-color: rgb(253, 192, 253);
+
   display: flex;
   justify-content: center;
 }
 
 .container .header .text {
-  background-color: tomato;
   max-width: 550px;
   padding: 0.2rem;
   text-align: center;
@@ -52,7 +55,6 @@ body {
 /* SECTION 2 */
 
 .container .section-second {
-  background: rgb(255, 162, 162);
   width: 100%;
   height: 100%;
   display: flex;
@@ -69,7 +71,7 @@ body {
   width: 350px;
   padding: 1.8rem;
   padding-left: 32px;
-  background-color: #ffffff;
+
   border-radius: .3rem;
   box-shadow: 0 0 20px rgb(105, 105, 105);
 }
@@ -81,13 +83,13 @@ body {
 
 .container .section-second .items h1 {
   font-size: 1.25rem;
+  color: var(--neutral-vdark-blue);
 }
 .container .section-second .items p {
   margin-top: .4rem;
   font-size: 0.83rem;
 }
 .container .section-second .section-middle {
-  background-color: rgb(185, 222, 219);
   display: flex;
   flex-flow: column;
   gap: 30px;
@@ -107,13 +109,11 @@ body {
 
 @media (max-width:1390px){
     .container {
-        height: 150vh;
+        height: 160vh;
         margin:0;
+        margin-top: 30px;
         max-width: 300px;
-        gap: 0px;
-    }
-    .container .header {
-        margin-top: 103px;
+        gap:50px;
     }
     .container .header h1{
         font-size: 1.5rem;
@@ -122,9 +122,9 @@ body {
         font-size: 1rem;
     }
     .container .section-second {
-        margin-top: -60px;
         flex-direction: column;
-        gap: 25px;
+        justify-content: space-evenly;
+        height: 1000px;
     }
 
     .container .section-second .items{
@@ -134,7 +134,6 @@ body {
         height: 220px;
     }
     .container .section-second .items .image img{
-        /* background-color: yellow; */
         width: 3.5rem;
     }
     .container .section-second .items h1{
